@@ -27,7 +27,7 @@ var ddd = ggg.toString('utf-8')
 
 
 Amazone.addCommand({
-    pattern: 'mtgg', fromMe: tk, desc: Lang.MENU
+    pattern: 'mtgg', fromMe: true, desc: 'mukuth na'
 }, (async (message, match) => {
         // send a list message!
         const rows = [{
